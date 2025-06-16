@@ -33,7 +33,7 @@ if (!isset($_SESSION['usuario'])) {
     if (isset($_GET['modulo']) && isset($_GET['controlador']) && isset($_GET['funcion'])) {
         resolve();
     } else {
-        echo "Hola como te va";
+        echo "Dashboard";
     }
 }
 
